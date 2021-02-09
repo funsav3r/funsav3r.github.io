@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Thailand
+title: "Summer"
 show_title: true
 ---

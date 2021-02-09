@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: FunSav3r
-#email: jillianzhong@yahoo.com
+email: email
 description: >- # this means to ignore newlines until "baseurl:" Add your site description here in the _config.yml file. It will appear in your document head meta (for Google search results) and title of the website (in browser tabs).
-  example site for jekyll-theme-image-grid by jirrian
+  promoting developed fun
 baseurl: "" # the subpath of your site, e.g. /blog. leave blank if this is your main github pages repository
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -31,7 +31,7 @@ remote_theme: jirrian/jekyll-theme-image-grid@main
 
 # generate social links in footer
 social_links:
-  #twitter: twitter
+  #twitter: queefape
   github: funsav3r
   # facebook: jekyll
   instagram: hugger_mugger
@@ -51,7 +51,7 @@ social_links:
 # settings for image grid homepage
 grid_settings:
   show_all_images: true #true - displays all images in grid page, false - only show first (file name of image sorted alphabetically) image of post in grid page
-  display: square-og #square-cropped - images displayed in square grid and cropped, #square-og - images displayed in square grid and with original aspect ratio, masonry - images displayed in original aspect ratio but staggered (please note this will display the images in top to bottom order instead of left to right)
+  display: masonry #square-cropped - images displayed in square grid and cropped, #square-og - images displayed in square grid and with original aspect ratio, masonry - images displayed in original aspect ratio but staggered (please note this will display the images in top to bottom order instead of left to right)
 
 # settings for post pages
 post_settings:
